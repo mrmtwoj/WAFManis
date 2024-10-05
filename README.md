@@ -50,9 +50,9 @@ This will test the target WAF and compare its behavior to the web application’
 ## Payloads
 The tool currently supports the following payloads for fuzzing:
 
-- ** SQL Injection ** : Tests for SQLi using techniques like UNION SELECT, BLIND SQLi, and DROP TABLE.
-- ** XSS (Cross-Site Scripting) ** : Sends malicious scripts using <script>, <img>, and <svg> tags.
-- ** NoSQL Injection ** : Payloads crafted for NoSQL databases.
-- ** OS Command Injection ** : Payloads like ping, whoami, and other command injections.
-- ** Path Traversal ** : Attempts to access files like /etc/passwd.
-- ** XML Injection ** : Payloads for XXE and other XML-based attacks.
+- **SQL Injection** : Tests for SQLi using techniques like UNION SELECT, BLIND SQLi, and DROP TABLE.
+- **XSS (Cross-Site Scripting)** : Sends malicious scripts using <script>, <img>, and <svg> tags.
+- **NoSQL Injection** : Payloads crafted for NoSQL databases.
+- **OS Command Injection** : Payloads like ping, whoami, and other command injections.
+- **Path Traversal** : Attempts to access files like /etc/passwd.
+- **XML Injection** : Payloads for XXE and other XML-based attacks.
